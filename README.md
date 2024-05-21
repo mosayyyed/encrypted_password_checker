@@ -23,3 +23,6 @@ $ dart run bin/main.dart <hashed_password> <plaintext_password>
 ```
 Replace <hashed_password> with the hashed password you want to check and <plaintext_password> with the plaintext password you want to verify.
 
+## Contributing 🤝
+
+Contributions are welcome! Feel free to submit pull requests or open issues if you encounter any bugs or have suggestions for improvements.
