@@ -23,18 +23,32 @@ To use the Encrypted Password Checker, follow these steps:
 1. **Run the program:** Open your terminal or command prompt and navigate to the directory where the `main.dart` file is located. Then, run the following command:
 
     ```bash
-    $ dart run bin/main.dart
+    $ dart run bin/main.dart <hashed_password> <plaintext_password>
     ```
 
-2. **Enter the hashed password and the plaintext password as arguments:** Once the program is running, provide the hashed password and the plaintext password as arguments. You can do this by typing them directly after the command, separated by a space. For example:
+    This command runs the program and requires you to replace `<hashed_password>` with the hashed password you want to check and `<plaintext_password>` with the plaintext password you want to verify.
+
+    For example:
 
     ```bash
     $ dart run bin/main.dart $2y$10$10Pw3keXISTA0jAlPGxc8efxD2VTBPVsMuqGHktqEm3WnJFoXITQy my_password
     ```
 
-    Replace `<hashed_password>` with the hashed password you want to check and `<plaintext_password>` with the plaintext password you want to verify.
+    This command checks if the plaintext password `my_password` matches the hashed password `$2y$10$10Pw3keXISTA0jAlPGxc8efxD2VTBPVsMuqGHktqEm3WnJFoXITQy`.
 
-3. **Program output:** After entering the passwords, the program will analyze them and provide an output indicating whether the plaintext password matches the hashed password or not. You will see a message like "Password is valid" or "Password is not valid" in the terminal.
+2. **Program output:** After running the command, the program will analyze the provided passwords. If the plaintext password matches the hashed password, it will output:
+
+    ```
+    Password is valid
+    ```
+
+    If the passwords do not match, it will output:
+
+    ```
+    Password is not valid
+    ```
+
+    You will see this output in the terminal.
 
 That's it! You've successfully used the Encrypted Password Checker to verify encrypted passwords.
 
