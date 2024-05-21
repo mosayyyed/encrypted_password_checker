@@ -20,3 +20,6 @@ Once Dart is installed, you can clone this repository and run the `main.dart` fi
 
 ```bash
 $ dart run bin/main.dart <hashed_password> <plaintext_password>
+```
+Replace <hashed_password> with the hashed password you want to check and <plaintext_password> with the plaintext password you want to verify.
+
