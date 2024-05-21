@@ -37,6 +37,7 @@ To use the Encrypted Password Checker, follow these steps:
     This command checks if the plaintext password `my_password` matches the hashed password `$2y$10$10Pw3keXISTA0jAlPGxc8efxD2VTBPVsMuqGHktqEm3WnJFoXITQy`.
 
 2. **Program output:** After running the command, the program will analyze the provided passwords.
+   
    If the plaintext password matches the hashed password, it will output:
 
     ```
