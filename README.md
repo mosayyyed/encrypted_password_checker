@@ -37,8 +37,8 @@ To use the Encrypted Password Checker, follow these steps:
 
     For example:
 
-    ```
-    $ dart run bin/main.dart '$2a$10$qJN631Vn8fDnZ4NpXOEmQes3ApAarWKpK0fb6rKv0CIQKPaH0TzQm' 'my_password'
+    ```bash
+    dart run bin/main.dart '$2a$10$qJN631Vn8fDnZ4NpXOEmQes3ApAarWKpK0fb6rKv0CIQKPaH0TzQm' 'my_password'
     ```
 
     This command checks if the plaintext password `my_password` matches the hashed password `$2y$10$10Pw3keXISTA0jAlPGxc8efxD2VTBPVsMuqGHktqEm3WnJFoXITQy`.
