@@ -18,9 +18,9 @@ $ dart pub get
 
 ## How to Use 🕹️
 
-Run the program.
-Enter the hashed password and the plaintext password as arguments.
-The program will output whether the plaintext password matches the hashed password or not.
+1. **Run the program.**
+2. **Enter the hashed password and the plaintext password as arguments.**
+3. **The program will output whether the plaintext password matches the hashed password or not.**
 
 ```bash
 $ dart run bin/main.dart <hashed_password> <plaintext_password>
