@@ -30,10 +30,10 @@ To use the Encrypted Password Checker, follow these steps:
 1. **Run the program:** Open your terminal or command prompt and navigate to the directory where the `main.dart` file is located. Then, run the following command:
 
     ```bash
-    $ dart run bin/main.dart 'hashed_password' 'plaintext_password'
+    $ dart run bin/main.dart '[hashed_password]' '[plaintext_password]'
     ```
 
-    This command runs the program and requires you to replace `hashed_password` with the hashed password you want to check and `plaintext_password` with the plaintext password you want to verify.
+    This command runs the program and requires you to replace `[hashed_password]` with the hashed password you want to check and `[plaintext_password]` with the plaintext password you want to verify.
 
     For example:
 
