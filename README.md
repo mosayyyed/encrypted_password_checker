@@ -18,15 +18,25 @@ $ dart pub get
 
 ## How to Use 🕹️
 
-1. **Run the program.**
-2. **Enter the hashed password and the plaintext password as arguments.**
-3. **The program will output whether the plaintext password matches the hashed password or not.**
+To use the Encrypted Password Checker, follow these steps:
 
-```bash
-$ dart run bin/main.dart <hashed_password> <plaintext_password>
-```
+1. **Run the program:** Open your terminal or command prompt and navigate to the directory where the `main.dart` file is located. Then, run the following command:
 
-Replace <hashed_password> with the hashed password you want to check and <plaintext_password> with the plaintext password you want to verify.
+    ```bash
+    $ dart run bin/main.dart
+    ```
+
+2. **Enter the hashed password and the plaintext password as arguments:** Once the program is running, provide the hashed password and the plaintext password as arguments. You can do this by typing them directly after the command, separated by a space. For example:
+
+    ```bash
+    $ dart run bin/main.dart $2y$10$10Pw3keXISTA0jAlPGxc8efxD2VTBPVsMuqGHktqEm3WnJFoXITQy my_password
+    ```
+
+    Replace `<hashed_password>` with the hashed password you want to check and `<plaintext_password>` with the plaintext password you want to verify.
+
+3. **Program output:** After entering the passwords, the program will analyze them and provide an output indicating whether the plaintext password matches the hashed password or not. You will see a message like "Password is valid" or "Password is not valid" in the terminal.
+
+That's it! You've successfully used the Encrypted Password Checker to verify encrypted passwords.
 
 ## Contributing 🤝
 
