@@ -1,4 +1,5 @@
 # Encrypted Password Checker 🔐
+![encrypted_password_checker](https://github.com/mosayyyed/encrypted_password_checker/assets/113109457/092c33e3-e26c-4e5c-9b65-daeb2a312d71)
 
 This is a Dart command-line application for checking encrypted passwords.
 
