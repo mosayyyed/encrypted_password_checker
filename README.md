@@ -7,7 +7,7 @@ This is a Dart command-line application for checking encrypted passwords.
 
 In this CLI tool, you can verify if a given plaintext password matches a previously encrypted password hash. It uses the bcrypt algorithm for secure password hashing.
 
-The bcrypt algorithm is widely used for its security features, including its resistance to brute-force attacks and its ability to adjust the cost factor to increase hashing time. It is commonly employed in web development for securely storing user passwords.
+The bcrypt algorithm is widely used for its security features, including its resistance to brute-force attacks and its ability to adjust the cost factor to increase hashing time. It is commonly employed in development for securely storing user passwords.
 
 For more information about the bcrypt algorithm and its implementation in Dart, you can refer to the following resources:
 
